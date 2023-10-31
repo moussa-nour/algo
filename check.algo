@@ -8,9 +8,9 @@ BEGIN
    read (str)
    while (step(1) <>".")do
 w=w+1
-if (str(1))=("a,e,i,y,u,o") else
+if (str(1))=("a","e","i","y","u","o") then
 v=v+1
-if (c=" ") else
+if (c=" ") then
 c=c+1
 
 END
